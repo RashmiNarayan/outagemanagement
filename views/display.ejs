@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+#vinay tr:nth-child(even){
+background-color:#f2f2f2;}
+#vinay tr:hover{background-color:#ddd;
+}
+#vinay th{
+padding-top:12px;
+pading-bottom:12px;
+text-align:center;
+background-color:#567359  ;
+color:black;
+}
+body{
+text-align:center;
+}
+
+#rashmi{
+background-color:#f2f2f2;
+}
+</style>
+</head>
+<body  color=#800000 >
+<p><h1 color=#0000A0 > electicity is not present in these area</h1></p>
+<table border="1" id="vinay">
+ <% print.forEach(function (user) { %>
+            <br><tr id="rashmi">
+              <td>  <%= user.area %></td>
+              <td>  <%= user.date %></td>
+              <td>  <%= user.time %></td>
+              </tr>                                
+         <% }) %>
+</table>         
+</ul>         
+</body>
+</html>
+    

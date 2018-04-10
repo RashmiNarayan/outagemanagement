@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#vinay{
+font-family:Arial;
+border-collapse:collapse;
+align:center;
+width:100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+#vinay td,#vinay th{
+border:1px solid:black;
+padding: 8px;
+}
+#vinay tr:nth-child(even){
+background-color:#f2f2f2;}
+#vinay tr:hover{background-color:#ddd;
+}
+#vinay th{
+padding-top:12px;
+pading-bottom:12px;
+text-align:center;
+background-color:#566573;
+color:black;
+}
+body{
+text-align:center;
+}
+
+#rashmi{
+background-color:#f2f2f2;
+}
+#vaibhav{
+background-color:#566573;
+
+</style>
+</head>
+<body>
+<div id="vaibhav">
+<h3>Table 3</h3>
+</div>
+<% include C:\Users\Z003X3UA\Desktop\mindsphere\views\partials\nav.ejs %>
+<br>
+<br>
+<table id ="vinay" border=1>
+  <tr id="rashmi">
+    <td colspan ="3" >
+<img src ="C:\Users\Z003X3UA\Desktop\mindsphere\views\download.png" width="100" height="100" align="left"></td>
+    
+  </tr>
+  <tr >
+<td colspan ="3">
+
+<form>
+From Date:
+<input type = "date">
+<input type="time">
+To Date:
+<input type="date">
+<input type="time">
+<input type ="submit">
+</form> </td>
+    
+  </tr>
+  <tr>
+    <th>P1</th>
+    <th>P2</th>
+    
+    <th>Count</th>
+    
+  </tr>
+ <tr>
+    <td>Vienna</td>
+    <td>220</td> 
+    
+    <td>P</td>
+    
+  </tr> 
+<tr>
+    <td>Vienna</td>
+    <td>220</td> 
+    
+    <td>P</td>
+    
+  </tr>
+ <tr>
+    <td>Rome</td>
+    <td>220</td> 
+    
+    <td>P</td>
+    
+  </tr>
+
+ <tr>
+    <th colspan="3">
+<select>
+<option value="Pdf">Pdf</option>
+<option value="Excel">Pdf</option>
+</select>
+</th>
+    
+  </tr>
+</table>
+</body>
+</html>
